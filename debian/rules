@@ -1,0 +1,10 @@
+#!/usr/bin/make -f
+
+%:
+	dh $@
+
+override_dh_auto_install:
+	cp -a data/camxfirmware-glymur/* debian/tmp/;
+
+override_dh_strip:
+	    dh_strip -X/usr/lib/firmware/
