@@ -1,5 +1,5 @@
 Source: camx-firmware-glymur
-Section: misc
+Section: non-free-firmware/kernel
 Maintainer: Qualcomm Camera Team <camx.deb.maintainers@qti.qualcomm.com>
 Build-Depends:
  debhelper-compat (= 13),
@@ -7,7 +7,6 @@ Standards-Version: 4.6.2
 Homepage: http://support.cdmatech.com
 
 Package: camx-firmware-glymur
-Section: libdevel
 Architecture: arm64
 Depends:
  ${misc:Depends},
