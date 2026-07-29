@@ -1,6 +1,6 @@
-camxfirmware (1.0.1-1) UNRELEASED; urgency=medium
+camx-firmware-glymur (1.0.2-0qli+staging1) forky; urgency=medium
 
-  [ Qualcomm Camera Team ]
+  [ Agathe Porte ]
   * Initial release.
 
- -- Qualcomm Camera Team <camx.deb.maintainers@qti.qualcomm.com>  Wed, 15 Jul 2026 15:37:16 +0000
+ -- Debusine Action GitHub Bot <noreply@bot.invalid>  Wed, 29 Jul 2026 08:08:00 +0000

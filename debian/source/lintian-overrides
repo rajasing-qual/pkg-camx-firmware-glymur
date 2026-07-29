@@ -1,0 +1,3 @@
+# proprietary indeed
+source-is-missing *
+source-contains-prebuilt-binary *

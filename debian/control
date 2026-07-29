@@ -1,17 +1,18 @@
-Source: camxfirmware
-Section: misc
-Priority: optional
+Source: camx-firmware-glymur
+Section: non-free-firmware/kernel
 Maintainer: Qualcomm Camera Team <camx.deb.maintainers@qti.qualcomm.com>
-Rules-Requires-Root: no
+Uploaders:
+ Agathe Porte <agathe.porte@oss.qualcomm.com>,
 Build-Depends:
  debhelper-compat (= 13),
-Standards-Version: 4.6.2
+Standards-Version: 4.7.4
 Homepage: http://support.cdmatech.com
+Vcs-Browser: https://github.com/qualcomm-linux/pkg-camx-firmware-glymur
+Vcs-Git: https://github.com/qualcomm-linux/pkg-camx-firmware-glymur.git
 
 Package: camx-firmware-glymur
-Section: libdevel
 Architecture: arm64
 Depends:
  ${misc:Depends},
-Description: Qualcomm CamX camera stack firmware package.
+Description: Qualcomm CamX camera stack firmware package
  camera firmware file for Glymur platform.
