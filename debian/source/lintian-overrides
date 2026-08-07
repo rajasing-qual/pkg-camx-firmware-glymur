@@ -1,3 +1,7 @@
 # proprietary indeed
 source-is-missing *
 source-contains-prebuilt-binary *
+
+# Closed source development: no tracking bug nor repository available
+upstream-metadata-missing-bug-tracking
+upstream-metadata-missing-repository
