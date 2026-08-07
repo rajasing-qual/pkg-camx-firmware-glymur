@@ -14,5 +14,6 @@ Package: camx-firmware-glymur
 Architecture: arm64
 Depends:
  ${misc:Depends},
-Description: Qualcomm CamX camera stack firmware package
- camera firmware file for Glymur platform.
+Description: Qualcomm CamX camera stack (glymur firmware)
+ This package contains the camera firmware file for the Qualcomm Glymur
+ platform.
